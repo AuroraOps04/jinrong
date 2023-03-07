@@ -1,6 +1,6 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-import { Login } from './Login';
+import { Login } from './views/Login';
 const Index = () => <h1>123</h1>;
 
 const router = createBrowserRouter([
@@ -8,7 +8,6 @@ const router = createBrowserRouter([
     path: '/login',
     element: <Login />,
   },
-
   {
     path: '/',
     element: <Index />,
