@@ -2,8 +2,8 @@ import './index.less';
 
 import * as React from 'react';
 
-import f1 from '../../../assets/f1.png';
-import f2 from '../../../assets/f2.png';
+import f1 from '../../assets/f1.png';
+import f2 from '../../assets/f2.png';
 export const Slogan = () => {
   return (
     <div className="slogan">

@@ -1,43 +1,43 @@
-.slogan{
+.slogan {
   height: 5rem;
   position: relative;
   margin-top: 1rem;
-  .p{
+  .p {
     position: absolute;
-    &.p1{
-      width: .8rem;
+    &.p1 {
+      width: 0.8rem;
       right: 1.01rem;
-      animation: p1 1000ms 1000ms;
-      animation-fill-mode:both;
+      animation: p1 1000ms;
+      animation-fill-mode: both;
       opacity: 0;
     }
-    &.p2{
+    &.p2 {
       opacity: 0;
-      width: .9rem;
-      right: .15rem;
+      width: 0.7rem;
+      right: 0.2rem;
       top: 2.2rem;
-      animation: p2 1000ms 1000ms;
-      animation-fill-mode:both;
+      animation: p2 1000ms;
+      animation-fill-mode: both;
     }
   }
 }
 
 @keyframes p1 {
-  from{
+  from {
     transform: translateY(-100%);
     opacity: 0;
   }
-  to{
+  to {
     transform: translateY(0);
     opacity: 1;
   }
 }
 @keyframes p2 {
-  from{
+  from {
     transform: translateY(100%);
     opacity: 0;
   }
-  to{
+  to {
     transform: translateY(0);
     opacity: 1;
   }

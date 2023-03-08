@@ -2,9 +2,9 @@ import './index.less';
 
 import * as React from 'react';
 
+import Logo from '../../components/logo';
+import { Slogan } from '../../components/slogan';
 import Form from './components/form';
-import Logo from './components/logo';
-import { Slogan } from './components/slogan';
 
 export const Login = () => {
   return (

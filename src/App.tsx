@@ -1,7 +1,9 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
+import Contract from './views/Contract';
+import Debt from './views/Debt';
+import { Index } from './views/Index';
 import { Login } from './views/Login';
-const Index = () => <h1>123</h1>;
 
 const router = createBrowserRouter([
   {
@@ -12,7 +14,14 @@ const router = createBrowserRouter([
     path: '/',
     element: <Index />,
   },
-  {},
+  {
+    path: '/debt',
+    element: <Debt />,
+  },
+  {
+    path: '/contract',
+    element: <Contract />,
+  },
 ]);
 function App() {
   return (
